@@ -1,12 +1,13 @@
 <template>
     <div id="carouselExample" class="carousel slide" :data-bs-interval="interval" data-bs-ride="carousel">
         <div class="relative">
-            <div v-for="(item, index) in items" :key="index" class="bg-right" :class="['carousel-item', { active: index === 0 }]">
+            <div v-for="(item, index) in items" :key="index" class="bg-right"
+                :class="['carousel-item', { active: index === 0 }]">
                 <img :src="item.src" class="d-block w-full f-full object-cover bg-left h-96" :alt="item.alt" />
             </div>
-            <div class="absolute top-1/4 left-1/4 text-white">
-                <div class="text-3xl">景语网络科技</div>
-                <div class="mt-8 text-3xl">
+            <div class="absolute sm:top-4 sm:left-4 lg:top-1/4  lg:left-1/4 text-white">
+                <div class="sm:text-2xl lg:text-3xl">景语网络科技</div>
+                <div class="sm:text-2xl lg:mt-8 lg:text-3xl">
                     成就美好数字世界
                 </div>
             </div>
