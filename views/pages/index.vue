@@ -13,7 +13,7 @@
             <div class="text-center px-9">
                 提供数字运营服务、软件开发、游戏开发等各类信息化产品和服务
             </div>
-            <div class=" m-auto">
+            <div class="xl:w-[1180px] m-auto">
                 <div class="flex flex-wrap wap-4 justify-center">
                     <div v-for="(item, index) in infolist" :key="index"
                         class="rounded-lg border border-gray-200 bg-cover bg-center bg-no-repeat w-[350px] m-4 bg-[url('/assets/image/image1.png')]">
