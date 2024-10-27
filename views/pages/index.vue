@@ -16,7 +16,7 @@
             <div class="xl:w-[1180px] m-auto">
                 <div class="flex flex-wrap wap-4 justify-center">
                     <div v-for="(item, index) in infolist" :key="index"
-                        class="rounded-lg border border-gray-200 bg-cover bg-center bg-no-repeat w-[350px] m-4 bg-[url('/assets/image/image1.png')]">
+                        class="rounded-lg border  border-gray-200 bg-cover bg-center bg-no-repeat w-[350px] m-4 bg-[url('/assets/image/image1.png')]">
                         <div class="p-4 h-[220px]">
                             <div class="title text-xl font-bold pt-4">
                                 {{ item.title }}
